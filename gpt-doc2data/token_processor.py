@@ -1,6 +1,6 @@
 import tiktoken
 
-result_average_token = 40
+result_average_token = 100
 
 
 def token_limit(model: str):

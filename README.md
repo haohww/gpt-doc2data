@@ -97,6 +97,7 @@ python3 gpt-doc2data/gpt-doc2data.py
 
 - Improve the method for estimating the generated QA pair token number, as the current approach may waste tokens for each API call.
 - Add support to configure the output JSON key's name.
+- Add rate-limiter to avoid overloading the openai api.
 
 ### High-hanging Fruits
 
